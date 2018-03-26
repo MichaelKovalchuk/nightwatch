@@ -30,7 +30,7 @@ module.exports = {
       });
       runner.run();
     },
-    
+
     testRunNoSrcFoldersArgument : function(done) {
       var runner = new Runner(undefined, {}, {
         output_folder : false
